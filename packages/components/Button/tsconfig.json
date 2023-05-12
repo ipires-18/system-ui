@@ -6,7 +6,7 @@
 		"sourceMap": true,	
 		"declaration": true,
 		"declarationDir": "dist",
-		"baseUrl":"./button.tsx"
+		"baseUrl": "./"
 	},
 	"exclude": [
 		"node_modules"

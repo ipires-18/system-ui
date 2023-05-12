@@ -1,12 +1,12 @@
 {
 	"extends": "@poc-native-ui/ts-config/base.json",
-	"include": ["./src/**/*.ts", "src/**/*.tsx", "./index.tsx"],
+	"include": ["./index.ts"],
 	"compilerOptions":{
 		"outDir": "dist",
 		"sourceMap": true,	
 		"declaration": true,
 		"declarationDir": "dist",
-		"baseUrl":"./index.tsx"
+		"baseUrl":"./",
 	},
 	"exclude": [
 		"node_modules"

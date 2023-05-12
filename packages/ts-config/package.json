@@ -1,6 +1,6 @@
 {
   "name": "@poc-native-ui/ts-config",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.2"

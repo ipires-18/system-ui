@@ -1,24 +1,24 @@
 {
   "name": "@poc-native-ui/button",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "main": "dist/cjs/button.js",
   "module": "dist/esm/button.js",
   "types": "dist/dts/button.d.ts",
   "scripts": {
     "prepublishOnly": "yarn build && cp package.json dist",
-    "build":"rm -rf /dist && yarn build:esm && yarn build:cjs",
+    "build": "rm -rf /dist && yarn build:esm && yarn build:cjs",
     "build:esm": "tsc",
     "build:cjs": "tsc --module CommonJS --outDir dist/cjs"
   },
   "devDependencies": {
+    "@poc-native-ui/ts-config": "^0.0.1",
     "@tsconfig/recommended": "^1.0.2",
     "@types/react": "^18.2.6",
     "@types/react-native": "^0.72.0",
     "react": "^18.2.0",
     "react-native": "^0.71.8",
-    "typescript": "^5.0.4",
-    "@poc-native-ui/ts-config":"*"
+    "typescript": "^5.0.4"
   },
   "publishConfig": {
     "access": "public",

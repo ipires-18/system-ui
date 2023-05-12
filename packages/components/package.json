@@ -1,6 +1,6 @@
 {
   "name": "@poc-native-ui/components",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Ian Oliveira",
   "license": "MIT",
   "main": "dist/cjs/index.js",
@@ -13,7 +13,7 @@
     "build:cjs": "tsc --module CommonJS --outDir dist"
   },
   "devDependencies": {
-    "@poc-native-ui/ts-config": "^0.0.3",
+    "@poc-native-ui/ts-config": "^0.0.4",
     "@tsconfig/recommended": "^1.0.2",
     "@types/react": "^18.2.6",
     "@types/react-native": "^0.72.0",

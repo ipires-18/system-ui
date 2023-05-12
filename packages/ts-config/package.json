@@ -1,11 +1,13 @@
 {
   "name": "@poc-native-ui/ts-config",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "license": "MIT",
+  "private": true,
   "dependencies": {
     "@tsconfig/recommended": "^1.0.2"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "c556e41bdb1b2c880c061ae4073acd01cfad41d6"
 }
